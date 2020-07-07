@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.meio{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+h1{
+    align-self: center;
+}
+
+#formulario{
+    align-self: center;
+    padding-bottom: 10px;
+}
+
+table, tr, th, td{ 
+    border-collapse: collapse;
+    border: 1.5px solid black;
+    text-align: center;
+}
+
+td, th {
+    padding: 10px;
+    width: auto;
+  }
+
+
+/* #tabelanotas tr {
+    padding: 200px;
+    width: auto;
+} */
